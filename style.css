@@ -31,7 +31,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-input-block {
   display: flex;
@@ -118,7 +118,7 @@ li > label {
   width: 226px;
 }
 .input-task {
-  width: 226px
+  width: 226px;
 }
 .delete-image {
   height: 2em;
@@ -131,13 +131,13 @@ li > label {
 
 /* Completed */
 .completed-task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .input-task {
-  display: none
+  display: none;
 }
 
 .edit-mode .input-task {

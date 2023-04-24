@@ -4,7 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.matrix-picture-block {
+.matrix-picture__block {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,17 +13,17 @@ body {
 .matrix-picture {
   width: 100%;
 }
-.matrix-picture-block .details {
+.matrix-picture__block .details {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
 
-  .matrix-picture-block {
+  .matrix-picture__block {
     text-align: center;
   }
 
 }
-.main-wrapper {
+.main__wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -33,14 +33,14 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-input-block {
+.task-input__block {
   display: flex;
 }
 .list {
   margin: 0;
   padding: 0px;
 }
-.list-item,
+.list__item,
 .title {
   list-style: none;
 }
